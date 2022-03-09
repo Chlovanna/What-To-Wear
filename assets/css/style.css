@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: rgb(248, 240, 125);
-  font-size: 16px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(230, 236, 32, 0.557);
+  font-size: 15px;
+  font-family: initial;
 }
 
 .col-sm-4 {
@@ -15,9 +15,9 @@ body {
 }
 
 img {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
 }
 
 h3 {
@@ -39,9 +39,9 @@ li:hover {
 }
 
 #search-city {
-  color: #282c34;
+  color: #104bc1;
 }
 
 #current-city {
-  color: #282c34;
+  color: #0d4ac4;
 }

@@ -33,7 +33,7 @@ function displayWeather(event) {
 function currentWeather(city) {
   // Here we build the URL so we can get a data from server side.
   var queryURL =
-    "https://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/data/2.5/weather?q=" +
     city +
     "&APPID=" +
     APIKey;
@@ -108,6 +108,7 @@ function UVIndex(ln, lt) {
 //5 day forecast for the current city.
 function forecast(cityid) {
   var dayover = false;
+
   var queryforcastURL =
     "https://api.openweathermap.org/data/2.5/forecast?id=" +
     cityid +
