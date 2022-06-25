@@ -13,7 +13,7 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 - [License](#license)
 
 
-![image](https://user-images.githubusercontent.com/97860472/157540708-4743acea-f572-4e1c-8fce-7267567c2384.png)
+![image](https://user-images.githubusercontent.com/assets/Demo.png)
 
 
 
