@@ -44,9 +44,10 @@
                     </div>
                 </div>
                 <!-- Clear history button -->
-                <button class=" btn btn-success mb-3" type="button" id="clear-history">Clear history</button>
-                <ul class="list-group">
-                </ul>
+                <button class=" btn btn-success mb-3" type="button" onclick="clearHistory()" id="clear-history">Clear
+                    history</button>
+                <hr>
+                <div id="history" class="text-center"></div>
             </div>
             <div class="col-sm-8">
                 <div class="row ml-2 border border-dark rounded">
@@ -57,38 +58,7 @@
                 <!-- Future weather data container -->
                 <div class="col-sm-12" id="future-weather">
                     <h3>5-Day Forecast:</h3>
-                    <div class="row text-light">
-                        <div class="col-sm-2 bg-secondary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate0"></p>
-                            <p id="fImg0"></p>
-                            <p>Temp:<span id="fTemp0"></span></p>
-                            <p>Humidity:<span id="fHumidity0"></span></p>
-                        </div>
-                        <div class="col-sm-2 bg-secondary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate1"></p>
-                            <p id="fImg1"></p>
-                            <p>Temp:<span id="fTemp1"></span></p>
-                            <p>Humidity:<span id="fHumidity1"></span></p>
-                        </div>
-                        <div class="col-sm-2 bg-secondary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate2"></p>
-                            <p id="fImg2"></p>
-                            <p>Temp:<span id="fTemp2"></span></p>
-                            <p>Humidity:<span id="fHumidity2"></span></p>
-                        </div>
-                        <div class="col-sm-2 bg-secondary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate3"></p>
-                            <p id="fImg3"></p>
-                            <p>Temp:<span id="fTemp3"></span></p>
-                            <p>Humidity:<span id="fHumidity3"></span></p>
-                        </div>
-                        <div class="col-sm-2 bg-secondary forecast text-white ml-2 mb-3 p-2 mt-2 rounded">
-                            <p id="fDate4"></p>
-                            <p id="fImg4"></p>
-                            <p>Temp:<span id="fTemp4"></span></p>
-                            <p>Humidity:<span id="fHumidity4"></span></p>
-                        </div>
-                    </div>
+                    <div id="forecast" class="row text-light"></div>
                 </div>
 
             </div>
