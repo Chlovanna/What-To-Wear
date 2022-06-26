@@ -15,7 +15,7 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 - [Technology Used](#technology-used)
 - [License](#license)
 
-- ![alt text](https://github.com/Chlovanna/What-To-Wear/blob/main/assets/demo.png)
+- ![alt text](https://github.com/Chlovanna/What-To-Wear/blob/main/assets/images/demo.png
 
 ## User Story
 
