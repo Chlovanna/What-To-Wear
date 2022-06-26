@@ -1,10 +1,13 @@
 # What-To-Wear
-Weather Dashboard
-## Description
-A weather dashboard that provides current, and five-day forecast by city when prompted. A history of cities stored and cleared when prompted. 
 
+Weather Dashboard
+
+## Description
+
+A weather dashboard that provides current, and five-day forecast by city when prompted. A history of cities stored and cleared when prompted.
 
 ## Table of Contents
+
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -12,11 +15,7 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 - [Technology Used](#technology-used)
 - [License](#license)
 
-
-![image](https://chlovanna.github.io/What-To-Wear//What-To-Wear/assets/images/demo.png)
-
-
-
+- ![alt text](https://github.com/Chlovanna/What-To-Wear/blob/main/assets/demo.png)
 
 ## User Story
 
@@ -39,19 +38,22 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 - THEN I am again presented with current and future conditions for that city
 
 ## Contributors
-- Ashley Lawrence 
+
+- Ashley Lawrence
 
 ## Deployment
+
 - https://chlovanna.github.io/What-To-Wear/
 
 ## Technology Used
+
 - HTML 5
 - CSS
 - JavaScript
 - Bootstrap
 
 ## License
-  MIT
+
+MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
-
