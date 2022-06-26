@@ -39,8 +39,10 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 - THEN I am again presented with current and future conditions for that city
 
 ## Contributors
-Ashley Lawrence 
-https://chlovanna.github.io/What-To-Wear/
+- Ashley Lawrence 
+
+## Deployment
+- https://chlovanna.github.io/What-To-Wear/
 
 ## Technology Used
 - HTML 5
