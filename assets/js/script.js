@@ -28,7 +28,7 @@ const handleClick = () => {
   let city = document.querySelector("input").value;
   if (!city) return;
 
-  let url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit1&appid=${APIKey}`;
+  let url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit1&appid=${APIKey}`;
 
   fetch(url)
     .then((data) => data.json())
@@ -51,7 +51,7 @@ const handleClick = () => {
 
           document.getElementById("current-weather").innerHTML = `
             <h2> ${new Date(data3.current.dt * 1000).toLocaleDateString()} 
-                  <span> <img src= 'http://openweathermap.org/img/wn/${
+                  <span> <img src= 'https://openweathermap.org/img/wn/${
                     data3.current.weather[0].icon
                   }.png'>
                   </span>
@@ -72,7 +72,7 @@ const handleClick = () => {
                       day.dt * 1000
                     ).toLocaleDateString()}
                         <span> 
-                            <img src= 'http://openweathermap.org/img/wn/${
+                            <img src= 'https://openweathermap.org/img/wn/${
                               day.weather[0].icon
                             }.png'>
                         </span>
