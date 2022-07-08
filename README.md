@@ -47,10 +47,12 @@ A weather dashboard that provides current, and five-day forecast by city when pr
 
 ## Technology Used
 
-- HTML 5
-- CSS
-- JavaScript
-- Bootstrap
+
+- ![Javascript](https://img.shields.io/badge/-JavaScript-f7df1e?style=plastic&logo=javascript&logoColor=black)
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=plastic&logo=bootstrap&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
+- ![CSS5](https://img.shields.io/badge/-CSS5-1572B6?style=plastic&logo=css5&logoColor=white)
+
 
 ## License
 
